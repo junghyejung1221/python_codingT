@@ -1,3 +1,8 @@
+
+# 큰수의 법칙
+# n개의 주어진 수를 총 m번 더할때 주어진 수중 가장 큰 합
+# 하지만 수가 k번 연속 되면 안된다.
+
 n,m,k = map(int, input().split())
 
 data = list(map(int, input().split()))
